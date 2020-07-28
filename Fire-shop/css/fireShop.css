@@ -1,0 +1,101 @@
+.header{
+    font-size: larger;
+    font-weight: bolder;
+    background-color: #ff7f50;
+    height: 25vh;
+    color: white;
+    position: relative;
+    text-align: center;
+    line-height: 25vh;
+    font-family: 'Play', sans-serif;
+}
+
+.header .logo{
+    height: 115px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 3%; 
+    transform: translateY(-50%);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: minmax(250px, 3fr) minmax(250px, 1fr);
+    grid-row: 3;
+    grid-gap: 20px;
+    padding: 40px 10px 40px 40px;
+    position: relative;
+    font-family: 'Play', sans-serif;
+}
+
+.pokeList{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    grid-column: 1/2;
+}
+
+.card{
+    list-style: none;
+    background-color: #FDDFDF;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px darkslategrey;
+}
+
+.card-price{
+    display: none;
+}
+
+.card-title{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.card-image {
+	height: 150px;
+}
+
+.card .addToCart{
+    color: #113345;
+    font-weight: bolder;
+    background-color: #eede7b;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    height: 35px;
+    width: 150px;
+    font-family: 'Play', sans-serif;
+}
+
+.cart{
+    background-color: #f3f3f3;
+    text-align: center;
+    border-radius: 5px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 305px;
+    position: absolute;
+    padding-bottom: 20px;
+}
+
+.cart .cartItem{
+    font-size: large;
+    padding-bottom: 10px;
+}
+
+.cart .btnFinishBuy{
+    color: #113345;
+    font-weight: bolder;
+    background-color: #f3cd6f;
+    width: 85%;
+    height: 50px;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 5px; 
+    font-family: 'Play', sans-serif;
+}

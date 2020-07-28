@@ -1,0 +1,97 @@
+
+.header{
+    background-color:#87cefa;
+    height: 25vh;
+    color: white;
+    position: relative;
+}
+
+.header .logo{
+    height: 150px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: minmax(250px, 3fr) minmax(250px, 1fr);
+    grid-row: 3;
+    grid-gap: 20px;
+    padding: 40px 10px 40px 40px;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.pokeList{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    grid-column: 1/2;
+}
+
+.card{
+    list-style: none;
+    background-color: lavender;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px darkslategrey;
+}
+
+.card-price{
+    display: none;
+}
+
+.card-title{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.card-image {
+	height: 150px;
+}
+
+.card .addToCart{
+    color: white;
+    font-weight: bolder;
+    background-color: #54a0ff;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    height: 35px;
+    width: 150px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cart{
+    background-color: #f3f3f3;
+    text-align: center;
+    border-radius: 20px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 305px;
+    position: absolute;
+    padding-bottom: 20px;
+}
+
+.cart .cartItem{
+    font-size: large;
+    padding-bottom: 10px;
+}
+
+.cart .btnFinishBuy{
+    color: whitesmoke;
+    font-weight: bolder;
+    background-color: #2980b9;
+    width: 85%;
+    height: 50px;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+}
