@@ -19,13 +19,13 @@ O MVP consiste em:
 
 ## Water shop
 
-![Print Water shop](img/water-shop.png)
+![Print Water shop](https://github.com/MatheusCaputo/Pok-shops/blob/master/img/water-shop.PNG)
 
 ---
 
 ## Fire shop
 
-![Print Fire shop](img/fire-shop.png)
+![Print Fire shop](https://github.com/MatheusCaputo/Pok-shops/blob/master/img/fire-shop.PNG)
 
 ---
 
@@ -35,8 +35,8 @@ Para obter o catálogo correto de cada uma das páginas acima, deve-se alterar n
 
 - Ao executar a index da Fire shop, passe a `generateHTMLFirePokemon` como parâmetro:
 
-![Print fetchFire](img/fetchFire.png)
+![Print fetchFire](https://github.com/MatheusCaputo/Pok-shops/blob/master/img/fetchFire.PNG)
 
 - Ao executar a index da Water shop, passe a `generateHTMLWaterPokemon` como parâmetro:
 
-![Print fetchWater](img/fetchWater.png)
+![Print fetchWater](https://github.com/MatheusCaputo/Pok-shops/blob/master/img/fetchWater.PNG)
